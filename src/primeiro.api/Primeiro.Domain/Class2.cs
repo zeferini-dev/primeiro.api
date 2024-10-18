@@ -8,5 +8,6 @@ namespace Primeiro.Domain
 {
     internal class Class2
     {
+        /**/
     }
 }
