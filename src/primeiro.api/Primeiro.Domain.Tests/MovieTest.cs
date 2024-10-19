@@ -13,6 +13,7 @@ namespace Primeiro.Domain.Tests
             _faker = new Faker();
         }
 
+
         [Theory]
         [InlineData("")]
         [InlineData(null)]        
