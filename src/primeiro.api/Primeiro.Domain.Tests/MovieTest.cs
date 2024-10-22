@@ -11,7 +11,7 @@ namespace Primeiro.Domain.Tests
         public MovieTest()
         {
             _faker = new Faker();
-        }
+        }        
 
         [Theory]
         [InlineData("")]
