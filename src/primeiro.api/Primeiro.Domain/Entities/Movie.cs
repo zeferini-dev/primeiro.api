@@ -10,6 +10,7 @@ namespace Infra.Data.Domain
 {
     public sealed class Movie : Root
     {
+        fsdfsd
         public string Id { get; private set; }
         public string Title { get; private set; }
         public string Genre { get; private set; }
