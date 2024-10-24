@@ -115,7 +115,10 @@ namespace Primeiro.Domain.Builders
 
         public Movie Build()
         {
-            _movie  = new Movie(_id, _name, _title, _genre, _year, _insertedBy);
+            _movie  = new Movie(
+                _id, _name, _title, _genre
+                , _year, _status, _insertedBy
+                , _insertedOn, _updatedBy, _updatedOn);
             return _movie;
         }
     }

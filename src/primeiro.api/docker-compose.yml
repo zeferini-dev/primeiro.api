@@ -1,0 +1,6 @@
+services:
+  primeiro.api:
+    image: ${DOCKER_REGISTRY-}primeiroapi
+    build:
+      context: .
+      dockerfile: primeiro.api/Dockerfile
